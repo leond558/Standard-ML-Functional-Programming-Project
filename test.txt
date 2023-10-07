@@ -1,0 +1,2 @@
+fun tcons v Lf = Br (v, Lf, Lf)
+      | tcons v (Br (w, t1, t2)) = Br (v, tcons w t2, t1);

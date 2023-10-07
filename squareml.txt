@@ -1,0 +1,2 @@
+fun square r : int = 
+	r*r;
